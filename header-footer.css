@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    
+    font-family: 'Comfortaa', cursive;
+    background: url('img/sunset-1645103_1920.jpg');
+}
+/*****************************************/
+/*************** HEADER ******************/
+/*****************************************/
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+header nav{
+    background-color: gray;
+    height: 100px;
+    display: flex;
+    box-shadow: 0 0 10px 0 black;
+    
+
+}
+
+header nav div {
+    display: flex; 
+    justify-content: center;
+    align-content: center;
+    align-items: center;  
+}
+
+header nav div a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+header nav img{
+    width: 150px
+}
+
+header nav .insConnex{
+    margin-left: 600px;
+}
+
+header nav .menu{
+    margin-left: 50px;
+}
+
+header nav div a:hover{
+    background-color: dimgray;
+    transition: 0.6s;
+    border-radius: 5px;
+    
+}
+
+/*****************************************/
+/*************** FOOTER ******************/
+/*****************************************/
+
+footer{
+    margin-top: 20px;
+    width: 100%;
+    background-color: grey;
+    height: 90px;
+    display: flex;
+    align-content: center;
+    justify-content:space-between;
+    align-items: center;
+}
+
+footer div a{
+    padding: 20px;
+}
+
+
+footer div a{
+    color: white;
+    text-decoration: none;
+}
+
+footer div p{
+    color: white;
+}
+
+footer div a:hover{
+    background-color: dimgray;
+    transition: 0.6s;
+    border-radius: 5px;
+    
+}
