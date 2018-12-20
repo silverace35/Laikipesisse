@@ -181,17 +181,26 @@ footer div a:hover{
     border: 0;
 }
 
-/************************************************/
-/*************Section Idée du moment ************/
-/***********************************************/
+/*******************************/
+/*         l'idée du moment    */
+/*******************************/
+
 
 .titreIdeeMoment {
     margin-top: 120px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    color: white;
 }
-
+/****** organisation de la page ********/
+.idee{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 
+}
 /********Etoiles animation**************/
 
 .rating {
@@ -209,4 +218,19 @@ footer div a:hover{
 .rating a:focus ~ a {
    color: orange;
    cursor: pointer;
+}
+/********mise en forme de l'image********/
+
+.imageIdeeDuMoment{
+    margin-right: 20px;
+    width: 70%;
+    
+}
+/****mise en forme description de l'idée****/
+.ideeMoment{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    background-color: rgba(200,200,200,0.8);
 }
