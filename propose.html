@@ -3,33 +3,39 @@
     <head>
         <meta charset="utf-8"/>
         <title>Accueil-BobArt</title>
-        <link href="#">
+        <link href="css/styles.css" rel="stylesheet"/>
         <meta name="autor" content="Laikipesisse"/>
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet"/>
     </head>
     <body>
-<!----------------- Header du site internet-------------------------->
+<!----------------- Header du site internet-------------------------->    <header>
         <nav>
             <a href="Accueil.html"><img src="img/logo%20bobart.png" alt="logo BobArt"/></a>
-            <div>
+            <div class="menu">
                 <a href="ideeDuMoment.html">L'idée du moment</a>
                 <a href="nosIdees.html">Nos idées</a>
                 <a href="propose.html">Proposer une idée</a>
             </div>
-            <div>
-                <a href="inscription.html">s'inscrire</a>
-                <a href="connexion.html">se connecter</a>
+            <div class="cnx_ins">
+                <a href="connexion.html">Se connecter</a>
             </div>
         </nav>
+    </header>    
 <!----------------section proposition------------------------>
-        <section>
-            <h1>proposer une idée</h1>
-            <form method="post" action="#" enctype="multipart/form-data">
-                <input type="text" id="marque" name="marque" placeholder="nom de la marque"/>
-                <label for="image">charger une image
-                    <input type="file" name="image" id="image"/></label>
-                <label for="description">décription de l'idée</label>
-                <textarea id="description" name="description"></textarea>
-            </form>        
+        <section class="proposition">
+            <div>
+                <h1>Proposer une idée</h1>
+                <form method="post" action="#" enctype="multipart/form-data">
+                    <label for="marque">Nom de la marque</label>
+                    <input type="text" id="marque" name="marque" />
+                    <label for="description">Description de l'idée</label>
+                    <textarea id="description" name="description">
+                    </textarea> 
+                    <label for="image">Charger une image
+                        <input type="file" name="image" id="image"/></label>
+                    <button type="submit">Envoyer</button>
+                </form>
+            </div>    
         </section>
 <!--------------- Footer ----------------------------------->
         <footer>

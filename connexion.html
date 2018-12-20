@@ -1,55 +1,52 @@
 <!DOCTYPEhtml>
-<html lang="fr">
+ <html lang="fr">
     <head>
         <meta charset="utf-8"/>
         <title>Accueil-BobArt</title>
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet"/>
         <link href="css/styles.css" rel="stylesheet"/>
         <meta name="autor" content="Laikipesisse"/>
     </head>
+    <body>
     <body >
 <!----------------- Header du site internet-------------------------->
     <header>
         <nav>
             <a href="Accueil.html"><img src="img/logo%20bobart.png" alt="logo BobArt"/></a>
-            <div>
+            <div class="menu">
                 <a href="ideeDuMoment.html">L'idée du moment</a>
-                <a href="nosIdees">Nos idées</a>
+                <a href="nosIdees.html">Nos idées</a>
                 <a href="propose.html">Proposer une idée</a>
             </div>
-            <div>
-                <a href="inscription.html">s'inscrire</a>
-                <a href="connexion.html">se connecter</a>
+            <div class="cnx_ins">
+                <a href="connexion.html">Se connecter</a>
             </div>
         </nav>
-    </header>
 
+    </header>
 <!-----------------section de connexion--------------------->
+        <section>
+            <h1>Connexion</h1>
     <div class="connex">
         <section class="connexion">
             <h1>connexion</h1>
             <form method="post" action="#">
-                <input type="email" id="mail" name="mail" placeholder="mail"/>
-                <input type="password" id="mdp" name="mdp" placeholder="mot de passe"/>
+                <input type="name" id="identifiant" name="identifiant" placeholder="Identifiant"/>
+                <input type="password" id="mdp" name="mdp" placeholder="Mot de passe"/>
                 <button type="submit">se connecter</button>
-                <label for="souvenir">se souvenir de moi
-                <input type="checkbox" id="souvenir" name="souvenir" value="oui"/> </label>           
-            </form>
-            <p>Nouveau à BobArt ?
-            <a href="inscription.html">S'inscrire maintenant</a></p>
-        
         </section>
     </div>
 
  <!--------------- Footer ----------------------------------->
         <footer>
-            <div>
-                <p>BobArt©2018</p>
-            </div>
-            <div>
-                <a href="ideeDuMoment.html">L'idée du moment</a>
-                <a href="nosIdees.html">Nos idées</a>
-                <a href="propose.html">Proposer une idée</a>
-            </div>
-        </footer>
-    </body>
-</html>
+             <div>
+                 <p>BobArt©2018</p>
+             </div>
+             <div>
+                 <a href="ideeDuMoment.html">L'idée du moment</a>
+                 <a href="nosIdees.html">Nos idées</a>
+                 <a href="propose.html">Proposer une idée</a>
+             </div>
+         </footer>
+     </body>
+ </html>
