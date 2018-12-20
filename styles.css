@@ -1,0 +1,411 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    
+    font-family: 'Comfortaa', cursive;
+    background: url('../img/london-3833039_1920.jpg');
+}
+/*****************************************/
+/*************** HEADER ******************/
+/*****************************************/
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+header nav{
+    background-color: gray;
+    height: 100px;
+    display: flex;
+    box-shadow: 0 0 10px 0 black;
+    
+
+}
+
+header nav div {
+    display: flex; 
+    justify-content: center;
+    align-content: center;
+    align-items: center;  
+}
+
+header nav div a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+header nav img{
+    width: 150px
+}
+
+header nav .insConnex{
+    margin-left: 600px;
+}
+
+header nav .menu{
+    margin-left: 50px;
+}
+
+header nav div a:hover{
+    background-color: dimgray;
+    transition: 0.6s;
+    border-radius: 5px;
+    
+}
+
+
+/*****************************************/
+/*****************ACCUEIL*****************/
+/*****************************************/
+
+/************SECTION ACCUEIL***********/
+
+.accueil{
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 40px
+    
+}
+
+.accueil img{
+    width: 40%;
+    height: 400px;
+    border-radius: 5px;
+}
+
+.accueil p{
+    width: 30%;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.accueil h1{
+    color: white;
+    
+}
+
+.accueil div{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    background-color: rgba(200,200,200,0.8);
+    width: 80%;
+    padding: 30px;
+    border-radius: 5px;
+}
+/************SECTION LOCAUX***********/
+
+.locaux{
+    width: 100%;
+    background-color: cadetblue;
+    height: 560px;
+}
+
+.locaux div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 40px;
+}
+
+.locaux div .image img{
+    width: 700px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+.locaux div .texte article{
+    width: 100%;
+    color: white;
+}
+
+.locaux div .texte article img{
+    padding: 20px;
+    margin-left: 70px;
+}
+
+
+
+/*****************************************/
+/*************** FOOTER ******************/
+/*****************************************/
+
+footer{
+    width: 100%;
+    background-color: dimgray;
+    height: 90px;
+    display: flex;
+    align-content: center;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+footer div a{
+    padding: 20px;
+}
+
+footer div p{
+    padding: 20px;
+}
+
+
+footer div a{
+    color: white;
+    text-decoration: none;
+}
+
+footer div p{
+    color: white;
+}
+
+footer div a:hover{
+    background-color: gray;
+    transition: 0.6s;
+    border-radius: 5px;
+    
+}
+
+/*******************************/
+/***********CONNEXION***********/
+/*******************************/
+
+
+.connex{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+.connexion h1{
+    text-transform: capitalize;
+    
+}
+.connexion a{
+    text-decoration: none;
+}
+.connexion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgba(200,200,200,0.8);
+    border-radius: 5px;
+    width: 50%;
+    margin-top: 200px;
+    padding: 10px;
+    color: white;
+    margin-bottom: 30px;
+}
+.connexion form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.connexion input{
+    margin:10px;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+/*******************************/
+/**********INSCRIPTION**********/
+/*******************************/
+
+
+.cnx_ins {
+    width: 57%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/*******************************/
+/**********NOS IDEES************/
+/*******************************/
+
+.banniere{
+    margin-top: 170px;
+}
+
+.banniere h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    
+}
+
+.idees{
+    background-color: rgba(200,200,200,0.9);
+    height: 1300px;
+    width: 100%;
+    padding: 50px;
+}
+
+.idees h2,a,p{
+    color: white;
+}
+
+.idees article{
+    display: flex;
+    flex-direction: row;
+    padding: 15px
+}
+
+.idees .text0{
+    padding: 20px;
+}
+
+.idees .text0 p{
+    padding: 10px;
+}
+
+
+
+.idees article img{
+    width: 250px;
+    border-radius: 3px;
+}
+
+.rating {
+   direction: rtl;
+    margin-right: 30px;
+}
+.rating a {
+   color: white;
+   text-decoration: none;
+   font-size: 2em;
+   transition: color .1s;
+}
+.rating a:hover,
+.rating a:focus,
+.rating a:hover ~ a,
+.rating a:focus ~ a {
+   color: orange;
+   cursor: pointer;
+}
+
+/***************************************/
+/**********PROPOSER UNE IDEE************/
+/***************************************/
+
+
+
+.proposition{
+    margin-top: 140px;
+    color: white;
+    width: 80%;
+    height: 554px;
+    background-color: rgba(200,200,200,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    border-radius: 5px;
+    
+}
+
+.proposition div{
+    display: flex;
+    flex-direction: column;
+}
+
+.proposition form{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.proposition form input{
+    padding: 10px;
+}
+
+.proposition form label{
+    padding: 20px;
+}
+
+.proposition form textarea{
+    width: 700px;
+    height: 150px;
+}
+
+/***************************************/
+/**********PROPOSER UNE IDEE************/
+/***************************************/
+
+.titreIdeeMoment {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+}
+/****** organisation de la page ********/
+.idee{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/********mise en forme de l'image********/
+
+.imageIdeeDuMoment{
+    margin-right: 20px;
+    width: 50%;
+    border-radius: 5px;
+    
+}
+/****mise en forme description de l'idée****/
+.ideeMoment{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    background-color: rgba(200,200,200,0.8);
+    border-radius: 5px;
+    width: 80%;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.idee h2{
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
