@@ -134,8 +134,14 @@ footer div a:hover{
 }
 .connexion input{
     margin:10px;
+    border-radius: 3px;
+    border: 1px solid;
+    border-color: darkgrey;
 }
-
+.connexion button{
+    border-radius: 3px;
+    border: 0;
+}
 /*******************************/
 /*         INSCRIPTION         */
 /*******************************/
@@ -164,6 +170,13 @@ footer div a:hover{
     flex-direction: column;
 }
 .inscription input{
-    margin: 10px;
+    margin:10px;
+    border-radius: 3px;
+    border: 1px solid;
+    border-color: darkgrey;
     
+}
+.inscription button{
+    border-radius: 3px;
+    border: 0;
 }
