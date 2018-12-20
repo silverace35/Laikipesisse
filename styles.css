@@ -223,11 +223,6 @@ footer div a:hover{
     border-radius: 5px;
 }
 
-/*******************************/
-/**********INSCRIPTION**********/
-/*******************************/
-
-
 .cnx_ins {
     width: 57%;
     display: flex;
@@ -349,7 +344,7 @@ footer div a:hover{
 }
 
 /***************************************/
-/**********PROPOSER UNE IDEE************/
+/*************IDEE DU MOMENT************/
 /***************************************/
 
 .titreIdeeMoment {
@@ -367,6 +362,16 @@ footer div a:hover{
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.goldenStar {
+   direction: rtl;
+    margin-right: 30px;
+}
+.goldenStar a {
+   color: gold;
+   text-decoration: none;
+   font-size: 2em;
 }
 
 /********mise en forme de l'image********/
@@ -393,19 +398,3 @@ footer div a:hover{
 .idee h2{
     padding: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
